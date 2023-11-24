@@ -1,0 +1,14 @@
+
+# dependencies
+/node_modules
+
+# production
+/build
+
+
+# Ignore ESLint configuration
+.eslintrc.json
+
+# Ignore the Next.js build directory
+.next/
+
