@@ -1,5 +1,5 @@
 import Button from "@/Components/Extensions/Button";
-import TopSection from "../../Components/TopSection/TopSection.jsx";
+import TopSection from "@/Components/TopSection/TopSection.jsx";
 import React from "react";
 import { BiMap, BiPhone, BiLogoGmail } from "react-icons/bi";
 export default function Contacts() {
