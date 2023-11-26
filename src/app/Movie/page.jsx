@@ -1,5 +1,5 @@
 import AllMovies from "@/Components/AllMovies/AllMovies";
-import Topsection from "@/Components/TopSection/Topsection";
+import TopSection from '@/Components/TopSection/TopSection'
 
 export const metadata = {
   title: "Movflx - Movies",
@@ -9,7 +9,7 @@ export const metadata = {
 export default function Movie() {
   return (
     <div className="pricingBg">
-      <Topsection name="Our" span="Movie" />
+      <TopSection name="Our" span="Movie" />
       <AllMovies />
     </div>
   );
