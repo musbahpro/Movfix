@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Topsection({name ,span}) {
+export default function TopSection({name ,span}) {
   return (
     <div className="w-full h-[600px] bg-black movi-hero flex justify-center items-center">
     <h1 className="text-6xl font-bold">
