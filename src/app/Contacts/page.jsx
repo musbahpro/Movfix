@@ -1,5 +1,5 @@
 import Button from "@/Components/Extensions/Button";
-import Topsection from "@/Components/TopSection/TopSection";
+import TopSection from "../../Components/TopSection/TopSection.jsx";
 import React from "react";
 import { BiMap, BiPhone, BiLogoGmail } from "react-icons/bi";
 export default function Contacts() {
@@ -7,7 +7,7 @@ export default function Contacts() {
     " my-6 mr-2 rounded-full bg-yellow-500 p-1 text-3xl text-gray-900";
   return (
     <>
-      <Topsection name="Contact " span="Us" />
+      <TopSection name="Contact " span="Us" />
       <div className="pricingBg flex flex-wrap items-center justify-evenly ">
         <div className=" relative">
           <p className=" mb-2 ml-6 mt-6 lg:mt-0">Contact Form</p>

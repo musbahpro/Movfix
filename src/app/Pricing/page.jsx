@@ -1,6 +1,6 @@
 import React from "react";
 import { BiCheck } from "react-icons/bi";
-import TopSection from "@/Components/TopSection/TopSection";
+import TopSection from "../../Components/TopSection/TopSection.jsx";
 
 const plans = [
   {
